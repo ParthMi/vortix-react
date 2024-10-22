@@ -2,7 +2,7 @@ import React from 'react'
 
 const TOS = () => {
     return (
-        <section id="about" className="pt-8 md:pt-10 lg:pt-[120px]">
+        <section id="about" className="pt-20 md:pt-10 lg:pt-[120px]">
             <div className="max-w-4xl mx-auto p-5 ">
                 <h1 className="text-3xl font-bold mb-5 ">Vortix Enterprise: Terms of Service</h1>
                 <p className="text-gray-600 mb-4">Effective Date: 06/10/2024</p>

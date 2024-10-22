@@ -24,18 +24,31 @@ import AOS from "aos";
 import { useEffect } from 'react';
 import TOS from './pages/tos/TOS';
 import PrivacyPolicy from './pages/privacy-policy/PrivacyPolicy';
+import Thank from './components/common/Thank';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   useEffect(() => {
     AOS.init({
-        duration: 1000, // Duration of the animation in milliseconds
-        once: true,     // Whether animation should happen only once
+      duration: 1000, // Duration of the animation in milliseconds
+      once: true,     // Whether animation should happen only once
     });
-}, []);
+  }, []);
   return (
     <BrowserRouter>
       <ScrollUp />
-      <ToastContainer />
+      <ToastContainer
+        stacked={true}
+        style={{ zIndex: 15000, justifyContent: 'center' }}
+        limit={3}
+        position="top-center" // You can adjust this based on your needs
+        toastStyle={{
+          margin: '0 auto', // Centering the toast
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      />
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -54,7 +67,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/terms-of-service" element={<TOS />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-
+          <Route path="/thank" element={<Thank />} />
         </Routes>
       </Layout>
     </BrowserRouter>

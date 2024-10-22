@@ -99,7 +99,14 @@ const CoconutShellActivatedCarbon = () => {
             ))}
           </div>
         </div>
-
+        <div className="flex items-center justify-center w-full">
+              <NavLink
+                to="/contact"
+                className="cursor-pointer ease-in-up shadow-btn hover:shadow-btn-hover rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
+              >
+                Enquire Now
+              </NavLink>
+            </div>
         {/* Product Types Cards Section */}
         <div className="w-full py-4 mt-8 flex flex-wrap gap-3 justify-center">
           {subTypes.map((t, i) => (

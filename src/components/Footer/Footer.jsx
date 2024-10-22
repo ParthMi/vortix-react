@@ -162,7 +162,7 @@ const Footer = () => {
                             </div>
                         </div>
 
-                       {/* <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
+                        {/* <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
                             <div className="mb-12 lg:mb-16">
                                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                                     Contact
@@ -179,35 +179,35 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>*/}
-                        
 
-<div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
-  <div className="mb-12 lg:mb-16">
-    <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-      Contact
-    </h2>
-    <ul>
-      <li className="flex items-center mb-4">
-        <FaPhoneAlt className="mr-2 text-primary" /> {/* Phone Icon */}
-        <span className="text-base font-medium text-black dark:text-white">
-          +91 95105 95121
-        </span>
-      </li>
-      <li className="flex items-center mb-4">
-        <FaEnvelope className="mr-2 text-primary" /> {/* Email Icon */}
-        <span className="text-base font-medium text-black dark:text-white">
-          info.vortixenterprise@gmail.com
-        </span>
-      </li>
-      <li className="flex items-center mb-4">
-        <FaMapMarkerAlt className="mr-2 text-primary" /> {/* Address Icon */}
-        <span className="text-base font-medium text-black dark:text-white">
-          Shop No.119, 4th Floor, Gruham Icon, Opp.Leck Garden, Kosad, Surat, Gujarat-394107,India
-        </span>
-      </li>
-    </ul>
-  </div>
-</div>
+
+                        <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
+                            <div className="mb-12 lg:mb-16">
+                                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+                                    Contact
+                                </h2>
+                                <ul>
+                                    <li className="flex items-center mb-4">
+                                        <span> <FaPhoneAlt className="mr-2 text-primary" /> {/* Phone Icon */}</span>
+                                        <span className="text-base font-medium text-black dark:text-white">
+                                            +91 95105 95121
+                                        </span>
+                                    </li>
+                                    <li className="flex items-center mb-4">
+                                        <span><FaEnvelope className="mr-2 text-primary" /> {/* Email Icon */}</span>
+                                        <span className="text-base font-medium text-black dark:text-white">
+                                            info.vortixenterprise@gmail.com
+                                        </span>
+                                    </li>
+                                    <li className="flex items-center mb-4">
+                                        <span><FaMapMarkerAlt className="mr-2 text-primary" /> {/* Address Icon */}</span>
+                                        <span className="text-base font-medium text-black dark:text-white">
+                                            Shop No.119, 4th Floor, Gruham Icon, Opp.Leck Garden, Kosad, Surat, Gujarat-394107,India
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
                     </div>
 

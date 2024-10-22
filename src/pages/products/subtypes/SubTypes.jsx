@@ -86,7 +86,7 @@ export default function SubTypes() {
 
 
                         {/* Right side - Product Information */}
-                        <div className="lg:w-1/2 lg:pl-8">
+                        <div className="lg:w-1/2 lg:pl-8 mt-3 md:mt-0">
                             <h1 className="text-3xl font-bold mb-4">{product.name}</h1>
                             <p className="text-gray-600 mb-6">{product.description}</p>
                             <div className="mt-10">
@@ -106,9 +106,9 @@ export default function SubTypes() {
                     </div><div className='my-4'>
                         <hr></hr></div>
                     <div className='flex flex-wrap justify-evenly'>
-                        <div className="mt-6">
+                        <div className="mt-6 overflow-x-auto">
                             <div className="overflow-x-auto">
-                                <table className="min-w-auto w-auto bg-white border border-gray-300 rounded-lg shadow-md table-auto">
+                                <table className="min-w-full bg-white border border-gray-300 rounded-lg shadow-md table-auto">
                                     <thead className="bg-gray-100">
                                         <tr>
                                             <th className="py-3 px-4 border-b border-gray-300 text-left text-sm font-semibold text-gray-700">
@@ -199,8 +199,8 @@ export default function SubTypes() {
                         <h2 className="text-2xl font-semibold mb-4">Advantages</h2>
                         <div className="space-y-2">
                             {product.advantages?.map((advantage, idx) => (
-                                <div key={idx} className="flex items-center text-gray-800 text-md font-medium">
-                                    <FaCheckCircle className="text-green-500 mr-2" />
+                                <div key={idx} className="flex items-start text-gray-800 text-md font-medium">
+                                    <span><FaCheckCircle className="text-green-500 mr-2 mt-1" /></span>
                                     <p>{advantage}</p>
                                 </div>
                             ))}

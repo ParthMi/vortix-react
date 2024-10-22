@@ -146,7 +146,7 @@ const Header = () => {
           </div>
         }
         <div className="relative -mx-4 flex items-center justify-between">
-          <div className="w-60 max-w-full px-4 xl:mr-12">
+          <div className="w-60 max-w-full px-4 xl:mr-8">
             <NavLink
               to="/"
               className={`relative header-logo block w-full ${sticky ? " lg:py-2 " : "py-2"
@@ -157,7 +157,7 @@ const Header = () => {
                 alt="about-image"
                 layout="fill"
                 objectFit="contain"
-                className="h-[50px] md:h-auto"
+                className="h-[55px] md:h-auto"
               />
             </NavLink>
           </div>

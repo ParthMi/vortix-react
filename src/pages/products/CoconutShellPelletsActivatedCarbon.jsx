@@ -1,5 +1,6 @@
 import React from 'react'
 import Breadcrumb from '../../components/common/Breadcrumb'
+import { NavLink } from 'react-router-dom'
 
 const CoconutShellPelletsActivatedCarbon = () => {
   return (
@@ -102,6 +103,14 @@ const CoconutShellPelletsActivatedCarbon = () => {
                   MTBE purification
                 </li>
               </div>
+              <div className="flex items-center justify-center w-full">
+              <NavLink
+                to="/contact"
+                className="cursor-pointer ease-in-up shadow-btn hover:shadow-btn-hover rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
+              >
+                Enquire Now
+              </NavLink>
+            </div>
               <div className="w-full overflow-x-auto py-6">
                 <table className="table-auto w-[100%] border-collapse border border-gray-200">
                   <thead>

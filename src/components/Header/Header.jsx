@@ -94,10 +94,10 @@ const Header = () => {
           </div>
         }
         <div className="relative -mx-4 flex items-center justify-between">
-          <div className="w-60 max-w-full px-4 xl:mr-8">
+          <div className="w-[280px] md:w-[260px] max-w-full px-4 xl:mr-8">
             <NavLink
               to="/"
-              className={`relative header-logo block w-full ${sticky ? " lg:py-2 " : "py-2"
+              className={`relative header-logo block w-full ${sticky ? " lg:py-2 " : "py-1"
                 }`}
             >
               <img
@@ -105,7 +105,7 @@ const Header = () => {
                 alt="about-image"
                 layout="fill"
                 objectFit="contain"
-                className="h-[55px] md:h-auto"
+                className="h-[50px] md:h-auto"
               />
             </NavLink>
           </div>

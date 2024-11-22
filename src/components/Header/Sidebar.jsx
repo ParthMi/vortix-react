@@ -38,7 +38,8 @@ const Sidebar= ({ isOpen, setIsOpen }) => {
       {/* Sidebar */}
       <div
         className={`fixed top-0 left-0 h-full bg-white text-black p-5 w-64 transform ${isOpen ? 'translate-x-0' : '-translate-x-64'
-          } transition-transform duration-300 ease-in-out z-50`}
+          } transition-transform duration-300 ease-in-out`}
+          style={{zIndex:"10000"}}
       >
         {/* Sidebar header */}
         <div className="flex justify-between items-center mb-10">

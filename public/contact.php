@@ -14,6 +14,7 @@ if (!$input) {
 }
 
 // Extract form data
+
 $name = $input['name'] ?? '';
 $email = $input['email'] ?? '';
 $phone = $input['phone'] ?? '';

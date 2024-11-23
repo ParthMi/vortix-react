@@ -66,7 +66,7 @@ const Header = () => {
             <div className="flex gap-2 items-center">
               <div className="flex items-center gap-2"><span><FaPhoneAlt /></span><span>+91 95105 95121</span></div>
               <RxDividerVertical size={25} />
-              <div className="flex items-center gap-2"><span><FaEnvelope /></span><span>info.vortixenterprise@gmail.com</span></div>
+              <div className="flex items-center gap-2"><span><FaEnvelope /></span><span>sales@vortixenterprise.com</span></div>
             </div>
             <div className="flex items-center py-2">
               <NavLink

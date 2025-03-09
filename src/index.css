@@ -34,3 +34,6 @@
     @apply opacity-100;
   }
 }
+.rfm-child, .rfm-initial-child-container, .rfm-marquee{
+  height: 100%;
+}

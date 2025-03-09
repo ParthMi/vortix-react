@@ -1,0 +1,59 @@
+[
+  {
+    "img":"",
+    "company": "INTEGRATED GAS RECOVERY SERVICES INC.",
+    "name": "Callum Fraser",
+    "review": "Vortix Enterprise’s KOH Impregnated Coal-Based Activated Carbon Pellets have delivered outstanding results in our gas purification and air filtration processes. With high adsorption capacity, excellent porosity, and strong chemical stability, they effectively remove hydrogen sulfide (H₂S) and other acidic gases. Vortix Enterprise stands out for its consistent quality, reliable supply, and excellent customer service. Their product has greatly enhanced our efficiency, and we highly recommend them for superior activated carbon solutions.",
+    "rating":5,
+    "country":"CA"
+  },
+  {
+    "img":"",
+    "company": "Estaleiro Navship Ltda",
+    "name": "Caetano Veloso",
+    "review": "We have been using Vortix Enterprise’s Activated Carbon Powder for edible oil purification, and the results have been outstanding. The high adsorption capacity effectively removes impurities, color, and unwanted odors, ensuring superior oil quality. Its consistent performance and purity have significantly improved our refining process. We highly recommend Vortix Enterprise for their excellent product quality, reliability, and professional service.",
+    "rating":5,
+    "country":"BR"
+  },
+  {
+    "img":"",
+    "company": "Carbomax Aktiebolag AB",
+    "name": "Elvira Nyström",
+    "review": "Vortix Enterprise’s Coconut Shell Based Activated Carbon (Gold Grade) delivers outstanding adsorption, durability, and purity, making it ideal for gold recovery, water treatment, and air purification. Their consistent quality, precise particle size, and excellent iodine value have enhanced our efficiency. With reliable service and timely delivery, Vortix Enterprise is a trusted partner. Highly recommended for premium activated carbon solutions.",
+    "rating":5,
+    "country":"SE"
+  },
+  {
+    "img":"",
+    "company": "Valee Carbon & Trading Sdn Bhd",
+    "name": "Rayyan Idris",
+    "review": "We have been using Vortix Enterprise’s Coconut Shell Based Activated Carbon (Gold Grade) for our purification and filtration processes, and the results have been exceptional. The product stands out for its high adsorption capacity, low ash content, and superior hardness, making it ideal for critical applications such as gold recovery, water treatment, and air purification. The consistency in quality, precise mesh size, and excellent iodine value have significantly enhanced our operational efficiency. Additionally, Vortix Enterprise’s commitment to timely delivery and professional service has made them a trusted partner for our business. We highly recommend their Gold Grade Activated Carbon for industries seeking premium quality and performance.",
+    "rating":5,
+    "country":""
+  },
+  {
+    "img":"",
+    "company": "ALKALOID",
+    "name": "Thorne DeLacroix",
+    "review": "Our experience with Vortix Enterprise’s Coal-Based Activated Carbon Granules for wastewater treatment has been nothing short of outstanding. These granules have proven highly effective in removing contaminants and impurities from wastewater, ensuring that the water meets the necessary quality standards. Their exceptional adsorption capacity makes them perfect for treating large volumes of wastewater efficiently. We’ve noticed a remarkable improvement in water clarity and safety after using the granules. Not only are they easy to handle, but they also provide long-lasting performance. We highly recommend Vortix Enterprise’s activated carbon granules for anyone seeking a reliable and efficient solution for wastewater purification.",
+    "rating":5,
+    "country":"FR"
+
+  },
+  {
+    "img":"",
+    "company": "Тошкент фарм",
+    "name": "Zarael Cohen",
+    "review": "We have been using Vortix Enterprise’s Coal-Based Activated Carbon Pellets for air purification, and the performance has been outstanding. These pellets are highly effective in eliminating air contaminants and unpleasant odors, contributing to a cleaner and healthier environment. Their impressive adsorption capacity makes them an excellent choice for both residential and industrial air filtration systems. Since using the pellets, we’ve seen a noticeable improvement in air quality, and the product is both efficient and easy to use. We highly recommend Vortix Enterprise’s activated carbon pellets for anyone in need of top-quality air purification solutions.",
+    "rating":5,
+    "country":"UZ"
+  },
+  {
+    "img":"",
+    "company": "MIKS DEKOR, OOO",
+    "name": "Alison Zentia",
+    "review": "Vortix Enterprise’s Coconut Shell Activated Carbon has been an excellent solution for our water purification needs. It efficiently removes impurities, chlorine, and organic contaminants, ensuring high water quality. The product is highly effective, long-lasting, and consistently meets our expectations. We appreciate the reliability and professionalism of Vortix Enterprise and highly recommend their products for water treatment applications.",
+    "rating":5,
+    "country":"RU"
+  }
+]

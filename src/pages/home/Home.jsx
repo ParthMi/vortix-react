@@ -5,6 +5,7 @@ import Features from '../../components/Features/Features';
 import Applications from '../../components/Applications/Applications';
 import Blog from '../../components/Blog/Blog';
 import Contact from '../contact/Contact';
+import Testimonial from '../../components/home/Testimonial';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Hero />
       <Features />
       <Applications homepage={true} />
+      <Testimonial/>
       <Blog fromHome={true} />
       <div className='my-[-80px]'>
       <Contact />

@@ -6,7 +6,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Applications = ({ homepage = false }) => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-2 md:py-4 lg:py-8">
+    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-4 lg:py-8">
       <div className="container mt-2">
         <SectionTitle
           title="Application Fields"
@@ -168,7 +168,7 @@ const Applications = ({ homepage = false }) => {
           </defs>
         </svg>
       </div>
-      <div className="flex justify-center mt-6 mb-[-15px]">
+      <div className="flex justify-center mt-6">
         <NavLink
           to="/applications"
           className="ease-in-up shadow-btn hover:shadow-btn-hover  rounded-sm bg-orange px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90  md:px-9 lg:px-6 xl:px-9 !flex gap-2 items-center"

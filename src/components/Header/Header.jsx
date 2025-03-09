@@ -77,7 +77,7 @@ const Header = () => {
                 <FaSquareWhatsapp size={18} />
               </NavLink>
               <NavLink
-                to="https://www.NavLinkedin.com/in/vortix-enterprise-016a26333/"
+                to="https://www.linkedin.com/company/vortix-enterprise/"
                 aria-label="social-NavLink"
                 className="text-white cursor-pointer duration-300 hover:text-white dark:text-white-dark dark:hover:text-white"
               >

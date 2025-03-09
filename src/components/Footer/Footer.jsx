@@ -43,7 +43,7 @@ const Footer = () => {
                     <FaSquareWhatsapp size={25} />
                   </NavLink>
                   <NavLink
-                    to="https://www.NavLinkedin.com/in/vortix-enterprise-016a26333/"
+                    to="https://www.linkedin.com/company/vortix-enterprise/"
                     aria-label="social-NavLink"
                     className="text-primary cursor-pointer duration-300 hover:text-opacity-90 dark:text-white-dark dark:hover:text-white"
                   >
